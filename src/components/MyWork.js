@@ -57,7 +57,7 @@ function MyWork({ workRef }) {
             className={biggerPanoBtn ? "change-pano active" : "change-pano"}
             onClick={biggerPanoControl}
           >
-            Bigger Projects
+            Projects
           </button>
           <button
             className={!biggerPanoBtn ? "change-pano active" : "change-pano"}
