@@ -16,9 +16,11 @@ font-family: 'Work Sans', sans-serif; */
 body {
     background-color: #EFF7FA;
     line-height: 1.6;
+    width: 100%;
 }
 
 * {
+    padding: 0;
     margin: 0;
 }
 
@@ -43,7 +45,7 @@ p {
 
 .preloader {
     position: fixed;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     background: var(--teal);
     display: flex;
@@ -62,8 +64,8 @@ p {
 .loader {
     position: relative;
     width: 10vw;
-    min-width: 100px;
-    min-height: 100px;
+    min-width: 10px;
+    min-height: 10px;
     height: 10vw;
     border-radius: 50%;
     display: flex;
@@ -98,11 +100,10 @@ p {
 nav {
     display: flex;
     justify-content: flex-end;
-    margin-right: 20px;
 }
 
 nav>* {
-    margin: 20px;
+    margin-right: 20px;
 }
 
 nav a {
@@ -136,18 +137,18 @@ nav a:hover:before {
 .container {
     width: 50%;
     margin: 0 auto;
-    padding: 10px;
 }
 
 .js-image-container {
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 250px;
 }
 
 .js-image {
     width: 600px;
-    height: 250px;
+    height: auto;
     margin: 0 auto;
 }
 
@@ -157,7 +158,7 @@ nav a:hover:before {
     display: flex;
     flex-direction: column;
     background: white;
-    min-height: 900px;
+    height: 950px;
     margin-bottom: 10px;
     overflow: hidden;
 }
@@ -858,6 +859,9 @@ footer {
     .container {
         width: 94%;
     }
+    .about-container {
+        height: 950px;
+    }
 }
 
 @media (max-width: 840px) {
@@ -955,21 +959,49 @@ footer {
         padding-right: 10px;
     }
     .about-container {
-        min-height: 1700px;
+        min-height: 1900px;
+    }
+    .contact-controller {
+        padding-bottom: 20px;
     }
 }
 
 @media (max-width: 500px) {
+    html {
+        background: red;
+    }
+    .container {
+        width: 100%;
+    }
+    nav {
+        justify-content: space-between;
+    }
     .my-image img {
         width: 90%;
+    }
+    .project-info {
+        width: 80%;
     }
     .project-info-presentation {
         position: relative;
         display: flex;
         justify-content: flex-start;
-        width: 130%;
+        width: 90%;
     }
     .about-container {
-        min-height: 1800px;
+        height: 2150px;
+    }
+    .js-image {
+        width: 350px;
+        height: 250px;
+    }
+    .contact-controller {
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .about-container {
+        min-height: 2950px;
     }
 }

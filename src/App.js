@@ -61,7 +61,7 @@ function App() {
     threeTransition,
   ]);
   return (
-    <div>
+    <div className="total">
       <Preloader preloaderClass={preloaderClass} />
       <Navbar
         scroll={scroll}
