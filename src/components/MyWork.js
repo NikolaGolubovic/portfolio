@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import MainProjects from "./MainProjects";
 import SmallerProjects from "./SmallerProjects";
 
+import { biggerPanoControl, smallerPanoControl } from "../config/functions";
+
 function MyWork({ workRef }) {
   const [biggerPano, setBiggerPano] = useState(true);
   const [biggerPanoBtn, setBiggerPanoBtn] = useState(true);
@@ -13,40 +15,6 @@ function MyWork({ workRef }) {
     "smaller-projects down hide"
   );
   const [panoOpacity, setPanoOpacity] = useState(1);
-  function biggerPanoControl() {
-    if (biggerPano) {
-      return;
-    }
-    setBiggerPanoBtn(true);
-    setSmallerProjectsClassName("smaller-projects down");
-    setTimeout(() => {
-      setMainProjectsClassName("main-projects down");
-      setPanoOpacity(0);
-    }, 300);
-    setTimeout(() => {
-      setBiggerPano(true);
-      setPanoOpacity(1);
-      setSmallerProjectsClassName("smaller-projects down hide");
-      setMainProjectsClassName("main-projects up show");
-    }, 400);
-  }
-  function smallerPanoControl() {
-    if (!biggerPano) {
-      return;
-    }
-    setBiggerPanoBtn(false);
-    setMainProjectsClassName("main-projects down");
-    setTimeout(() => {
-      setSmallerProjectsClassName("smaller-projects down");
-      setPanoOpacity(0);
-    }, 300);
-    setTimeout(() => {
-      setBiggerPano(false);
-      setPanoOpacity(1);
-      setMainProjectsClassName("main-projects down hide");
-      setSmallerProjectsClassName("smaller-projects up show");
-    }, 400);
-  }
 
   return (
     <section className="my-work" ref={workRef}>
@@ -55,13 +23,31 @@ function MyWork({ workRef }) {
         <div className="switch-table">
           <button
             className={biggerPanoBtn ? "change-pano active" : "change-pano"}
-            onClick={biggerPanoControl}
+            onClick={() =>
+              biggerPanoControl(
+                biggerPano,
+                setBiggerPano,
+                setBiggerPanoBtn,
+                setSmallerProjectsClassName,
+                setMainProjectsClassName,
+                setPanoOpacity
+              )
+            }
           >
             Projects
           </button>
           <button
             className={!biggerPanoBtn ? "change-pano active" : "change-pano"}
-            onClick={smallerPanoControl}
+            onClick={() =>
+              smallerPanoControl(
+                biggerPano,
+                setBiggerPano,
+                setBiggerPanoBtn,
+                setMainProjectsClassName,
+                setSmallerProjectsClassName,
+                setPanoOpacity
+              )
+            }
           >
             Little Projects
           </button>

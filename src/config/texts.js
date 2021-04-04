@@ -8,6 +8,13 @@ import cardOne from "../images/card-1.svg";
 import cardTwo from "../images/card-2.svg";
 import cardThree from "../images/logo.svg";
 
+import calendarDesktop from "../images/calendar-desktop.jpg";
+import calendarPhone from "../images/calendar-phone.jpg";
+import quizDesktop from "../images/quiz-desktop.jpg";
+import quizPhone from "../images/quiz-phone.jpg";
+import surveyDesktop from "../images/survey-desktop.jpg";
+import surveyPhone from "../images/survey-phone.jpg";
+
 export function makeNavLinks(aboutTop, workTop, contactTop = "Contact") {
   const arrParams = [{ aboutTop }, { workTop }, { contactTop }];
   const hrefNames = ["#about", "#work", "#contact"];
@@ -46,6 +53,44 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
   ];
   return cards;
 }
+
+export const projectsArr = [
+  {
+    projectTitle: `Calendar App`,
+    projectDescription: `Fullstack Calendar App for making and tracking events. You can use
+  user as username and password as password for credentials.`,
+    projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
+    projectAppLink: "https://sweetcalendar.herokuapp.com/",
+    projectGithubLink: "https://github.com/NikolaGolubovic/fullstack-calendar",
+    altDesktop: "Desktop presentation of Application",
+    altPhone: "Phone Presentation of Application",
+    desktopImg: calendarDesktop,
+    phoneImg: calendarPhone,
+  },
+  {
+    projectTitle: `Quiz App`,
+    projectDescription: `Trivia app which use Open Trivia Database as main source. Game can be made from different categories. You can use user as username and password as password for credentials.`,
+    projectTech: `React, Express, Open Trivia Database, CSS grid`,
+    projectAppLink: "https://quizitj.herokuapp.com/quiz",
+    projectGithubLink:
+      "https://github.com/NikolaGolubovic/full-quiz-server-and-build",
+    altDesktop: "Desktop presentation of Application",
+    altPhone: "Phone Presentation of Application",
+    desktopImg: quizDesktop,
+    phoneImg: quizPhone,
+  },
+  {
+    projectTitle: `Survey App`,
+    projectDescription: `Survey app with options to create surveys and vote. You can use user as username and password as password for credentials.`,
+    projectTech: `React Router, Express, Postgresql, SurveyJs, ChartJs`,
+    projectAppLink: "https://veryhappysurvey.herokuapp.com/",
+    projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
+    altDesktop: "Desktop presentation of Application",
+    altPhone: "Phone Presentation of Application",
+    desktopImg: surveyDesktop,
+    phoneImg: surveyPhone,
+  },
+];
 
 export const smallerProjectsArr = [
   {
@@ -88,4 +133,13 @@ export const mySummary = {
   and
   <span class="tech-mark"> NodeJs/Express</span> as a tool for backend. But generally
   <span class="emp-bio"> I am not afraid</span> of any technology.`,
+};
+
+export const billboardNotes = {
+  mystery:
+    "You can find code for highlysubliminal function at my github portfolio",
+  msgToUser: `You want to conquer world but you need a sidekick who will implement
+  your ideas into projects?`,
+  email: "nikolagolubovic985@gmail.com",
+  phone: "+381 (63) 72 63 54 6",
 };

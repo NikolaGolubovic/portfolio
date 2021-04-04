@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 import MainContainer from "./components/MainContainer";
 import Scroll from "react-scroll";
 
-import { checkLoad } from "./config/effects";
+import { checkLoad, mainPageScrol } from "./config/effects";
+import Footer from "./components/Footer";
 
 function App() {
   const scroll = Scroll.animateScroll;
@@ -30,44 +31,30 @@ function App() {
   }, []);
 
   useEffect(() => {
-    const { offsetTop: offsetAbout } = aboutRef.current;
-    const { offsetTop: offsetWork } = workRef.current;
-    const { offsetTop: offsetContact } = contactRef.current;
-    setAboutTop(offsetAbout);
-    setWorkTop(offsetWork);
-    setContactTop(offsetContact);
-    if (
-      aboutTop &&
-      !cardsMoved &&
-      window.screen.height - window.pageYOffset < aboutTop + 50
-    ) {
-      setCardsMoved(true);
-      setOneTransition(oneTransition + " transit-top");
-      setTwoTransition(twoTransition + " transit-top");
-      setThreeTransition(threeTransition + " transit-top");
-    }
-    function handleScroll() {
-      if (
-        aboutTop &&
-        !cardsMoved &&
-        window.screen.height - window.pageYOffset > aboutTop + 200
-      ) {
-        setCardsMoved(true);
-        setOneTransition(oneTransition + " transit-top");
-        setTwoTransition(twoTransition + " transit-top");
-        setThreeTransition(threeTransition + " transit-top");
-      }
-    }
-
-    window.addEventListener("scroll", handleScroll);
-    // https://stackoverflow.com/questions/53158796/get-scroll-position-with-reactjs
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    mainPageScrol(
+      aboutRef,
+      workRef,
+      contactRef,
+      aboutTop,
+      workTop,
+      contactTop,
+      setAboutTop,
+      setWorkTop,
+      setContactTop,
+      cardsMoved,
+      setCardsMoved,
+      oneTransition,
+      twoTransition,
+      threeTransition,
+      setOneTransition,
+      setTwoTransition,
+      setThreeTransition
+    );
   }, [
     aboutRef,
     aboutTop,
     workTop,
+    contactTop,
     cardsMoved,
     oneTransition,
     twoTransition,
@@ -91,9 +78,7 @@ function App() {
         threeTransition={threeTransition}
         contactTop={contactTop}
       ></MainContainer>
-      <footer>
-        <p className="footer-text">Nikola Golubovic, Web Developer, Serbia</p>
-      </footer>
+      <Footer />
     </div>
   );
 }
