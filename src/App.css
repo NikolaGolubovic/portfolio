@@ -886,7 +886,7 @@ footer {
         align-items: center;
     }
     .card-about .my-image {
-        width: 70%;
+        display: none;
     }
     .my-bio {
         padding: 10px;
@@ -969,7 +969,7 @@ footer {
         padding-right: 10px;
     }
     .about-container {
-        min-height: 1900px;
+        min-height: 1650px;
     }
     .contact-controller {
         padding-bottom: 20px;
@@ -1004,7 +1004,7 @@ footer {
         width: 90%;
     }
     .about-container {
-        height: 2150px;
+        min-height: 1850px;
     }
     .js-image {
         width: 350px;
