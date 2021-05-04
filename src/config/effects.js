@@ -31,11 +31,7 @@ export function mainPageScrol(
   setAboutTop(offsetAbout);
   setWorkTop(offsetWork);
   setContactTop(offsetContact);
-  if (
-    aboutTop &&
-    !cardsMoved &&
-    window.screen.height - window.pageYOffset < aboutTop + 50
-  ) {
+  if (aboutTop && !cardsMoved && window.pageYOffset > aboutTop + 20) {
     setCardsMoved(true);
     setOneTransition(oneTransition + " transit-top");
     setTwoTransition(twoTransition + " transit-top");

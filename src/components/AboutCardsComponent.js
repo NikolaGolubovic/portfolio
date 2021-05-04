@@ -25,7 +25,7 @@ function AboutCardsComponent({
                 />
               </div>
               <div className="card-text-container">
-                <h4 className="card-title">{card.title}</h4>
+                <h2 className="card-title">{card.title}</h2>
                 <p>{card.text}</p>
               </div>
             </div>

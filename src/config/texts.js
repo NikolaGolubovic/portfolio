@@ -1,6 +1,7 @@
+import memeGenerator from "../images/meme-generator.jpg";
 import mastermind from "../images/mastermind.jpg";
-import movieSuggestion from "../images/movies-suggestion.jpg";
-import salvador from "../images/salvador.jpg";
+import movieSuggestion from "../images/movies-suggestion-compressed.jpg";
+import salvador from "../images/salvador-compressed.jpg";
 import fastQuiz from "../images/fast-quiz.jpg";
 import restaurant from "../images/restaurant.jpg";
 
@@ -8,7 +9,7 @@ import cardOne from "../images/card-1.svg";
 import cardTwo from "../images/card-2.svg";
 import cardThree from "../images/logo.svg";
 
-import calendarDesktop from "../images/calendar-desktop.jpg";
+import calendarDesktop from "../images/calendar-compresed.jpg";
 import calendarPhone from "../images/calendar-phone.jpg";
 import quizDesktop from "../images/quiz-desktop.jpg";
 import quizPhone from "../images/quiz-phone.jpg";
@@ -93,6 +94,11 @@ export const projectsArr = [
 ];
 
 export const smallerProjectsArr = [
+  {
+    src: memeGenerator,
+    description: "Make your MEME with favorite template",
+    link: "https://github.com/NikolaGolubovic/meme-generator",
+  },
   {
     src: mastermind,
     description: "Try to find correct combination, for Serbian players",

@@ -1,5 +1,5 @@
 import React from "react";
-import jsImage from "../images/js-cover1.jpg";
+import jsImage from "../images/js-cover-compressed.jpg";
 
 function CoverImage() {
   return (

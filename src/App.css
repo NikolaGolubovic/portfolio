@@ -209,12 +209,15 @@ nav a:hover:before {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .my-image img {
     border-radius: 50%;
     width: 50%;
     filter: grayscale(60%);
+    position: absolute;
+    z-index: 1;
 }
 
 .my-bio {
@@ -228,9 +231,10 @@ nav a:hover:before {
     flex-basis: 40%;
 }
 
-.my-bio h6 {
+.my-bio .bio-name {
     color: var(--teal);
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .my-bio p {
@@ -260,7 +264,8 @@ nav a:hover:before {
 }
 
 .btn-moved {
-    height: 30px;
+    padding: 10px 15px;
+    text-align: center;
     background: var(--teal);
     color: var(--white);
     border-radius: 3px;
@@ -362,7 +367,7 @@ nav a:hover:before {
     position: relative;
 }
 
-h4.card-title {
+h2.card-title {
     font-size: 1rem;
     text-transform: none;
 }
@@ -528,6 +533,7 @@ h4.card-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     line-height: 29px;
+    font-size: 1rem;
     letter-spacing: 0.5px;
 }
 
@@ -694,7 +700,7 @@ a.project-btn:hover {
     padding-right: 30px;
 }
 
-.contact-bilboard h4 {
+.contact-bilboard .contact-me {
     font-family: "Montserrat";
     font-size: 0.9rem;
     text-transform: none;
@@ -822,6 +828,10 @@ a.project-btn:hover {
     box-shadow: 0 0.25rem 0.25rem rgb(0 0 0 / 15%);
     background: var(--gray);
     cursor: pointer;
+}
+
+.btn-icon:active, .btn-icon:focus {
+    outline: none;
 }
 
 .icon {
@@ -967,8 +977,13 @@ footer {
 }
 
 @media (max-width: 500px) {
-    html {
-        background: red;
+    .desktop-img {
+        width: 160%;
+        position: relative;
+        left: 33%;
+    }
+    .project:nth-of-type(even) .desktop-img {
+        left: -33%;
     }
     .container {
         width: 100%;

@@ -9,7 +9,7 @@ function MainProjects({ mainProjectsClassName }) {
         return (
           <div className="project" key={project.projectTitle}>
             <div className="project-info">
-              <h3 className="project-title">{project.projectTitle}</h3>
+              <h1 className="project-title">{project.projectTitle}</h1>
 
               <p className="project-description">
                 {project.projectDescription}
