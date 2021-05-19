@@ -2,6 +2,7 @@ import memeGenerator from "../images/meme-generator.jpg";
 import mastermind from "../images/mastermind.jpg";
 import movieSuggestion from "../images/movies-suggestion-compressed.jpg";
 import salvador from "../images/salvador-compressed.jpg";
+import tips from "../images/tips.jpg";
 import fastQuiz from "../images/fast-quiz.jpg";
 import restaurant from "../images/restaurant.jpg";
 
@@ -124,6 +125,12 @@ export const smallerProjectsArr = [
     src: restaurant,
     description:
       "Restaurant simulator, with orders and trackers - focused on OOP",
+    link: "https://github.com/NikolaGolubovic/restaurant-sim",
+  },
+  {
+    src: tips,
+    description:
+      "Interesting web dev resources from twitter, reddit, various blogs...",
     link: "https://github.com/NikolaGolubovic/restaurant-sim",
   },
 ];

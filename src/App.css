@@ -477,7 +477,7 @@ h2.card-title {
 }
 
 .smaller-projects {
-    height: 60vh;
+    min-height: 60vh;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -623,7 +623,7 @@ a.project-btn:hover {
     height: 200px;
     flex: 1;
     flex-basis: 32%;
-    margin-right: 5px;
+    margin: 0 5px 10px 0;
     position: relative;
     overflow: hidden;
     z-index: 1;
@@ -631,7 +631,7 @@ a.project-btn:hover {
 
 .small-project-link img {
     width: 100%;
-    height: 200px;
+    min-height: 200px;
     filter: grayscale(100%);
     transition: 0.2s all;
 }
@@ -973,6 +973,9 @@ footer {
     }
     .contact-controller {
         padding-bottom: 20px;
+    }
+    .small-project {
+        flex-basis: 45%;
     }
 }
 
