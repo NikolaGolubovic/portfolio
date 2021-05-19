@@ -2,23 +2,6 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "forms": {
-    "signupForm": {
-      "name": "Sign-up Form",
-      "actions": [
-        {
-          "type": "email",
-          "to": "nikolagolubovic985@email.com"
-        }
-      ],
-      "fields": {
-        "email": {
-          "required": "true",
-          "type": "email"
-        }
-      }
-    }
-  },
   "dependencies": {
     "@formspree/react": "^2.2.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
