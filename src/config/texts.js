@@ -138,11 +138,10 @@ export const smallerProjectsArr = [
 export const mySummary = {
   title: "About",
   name: "My name is Nikola Golubovic",
-  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> someone who makes sites </span> from
-  <span class="emp-bio"> Serbia</span> who makes
-  <span class="emp-bio"> fullstack</span> sites. My primary tools
+  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> someone </span> from
+  <span class="emp-bio"> Serbia</span> who makes sites. My primary tools
   are <span class="tech-mark"> Javascript</span> as a programming language,
-  <span class="tech-mark"> React</span> as a frontend framework
+  <span class="tech-mark"> React</span> as frontend framework
   and
   <span class="tech-mark"> NodeJs/Express</span> as a tool for backend. But generally
   <span class="emp-bio"> I am not afraid</span> of any technology.`,
