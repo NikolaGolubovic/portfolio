@@ -138,7 +138,7 @@ export const smallerProjectsArr = [
 export const mySummary = {
   title: "About",
   name: "My name is Nikola Golubovic",
-  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> web developer</span> from
+  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> someone who makes sites </span> from
   <span class="emp-bio"> Serbia</span> who makes
   <span class="emp-bio"> fullstack</span> sites. My primary tools
   are <span class="tech-mark"> Javascript</span> as a programming language,

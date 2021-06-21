@@ -22,8 +22,8 @@ function FormComponent() {
     setTimeout(() => setSuccessSend(false), 2000);
   }, [successSend]);
 
-  function submitForm(data, e) {
-    handleSubmit(data);
+  async function submitForm(data, e) {
+    await handleSubmit(data);
     setSuccessSend(true);
     setNameInput(false);
     setEmailInput(false);
