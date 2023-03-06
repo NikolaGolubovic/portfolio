@@ -101,52 +101,52 @@ export const projectsArr = [
 
 export const smallerProjectsArr = [
   {
-    src: quizDesktop,
-    description:
-      "Trivia app which use Open Trivia Database as main source. Game can be made from different categories. username: username, password: password.",
-    link: "https://github.com/NikolaGolubovic/full-quiz-server-and-build",
-  },
-  {
     src: slagalica,
     description:
       "Improve and verify your general knowledge with thousand questions made by quizzes experts.",
-    link: "https://github.com/NikolaGolubovic/quiz-improver",
+    link: "https://quiz-improver-8v29pomff-nikolagolubovic985.vercel.app/",
   },
   {
     src: ecommerce,
     description: "Front-End for e-commerce app",
-    link: "https://github.com/NikolaGolubovic/little-e-commerce",
+    link: "https://little-e-commerce-ab0r1bilf-nikolagolubovic985.vercel.app/",
   },
   {
     src: invoices,
     description:
-      "Front-endfor invoices app, top challange from frontend mentor",
-    link: "https://github.com/NikolaGolubovic/invoices-app",
+      "Front-end for invoices app, top challange from frontend mentor",
+    link: "https://invoices-app-sooty.vercel.app/",
   },
   {
     src: pomodoro,
     description: "Pomodoro",
-    link: "https://github.com/NikolaGolubovic/pomodoro-timer",
+    link: "https://pomodoro-timer-lovat.vercel.app/",
   },
   {
     src: rps,
     description: "Rock Paper Scissors",
-    link: "https://github.com/NikolaGolubovic/rps",
+    link: "https://rps-avzwd0nwt-nikolagolubovic985.vercel.app/",
+  },
+  {
+    src: quizDesktop,
+    description:
+      "Trivia app which use Open Trivia Database as main source. Game can be made from different categories.",
+    link: "https://trivia-ko-voli.onrender.com/",
   },
   {
     src: githubFinder,
     description: "Simple github finder app",
-    link: "https://github.com/NikolaGolubovic/Github-finder",
+    link: "https://github-finder-hazel.vercel.app/",
   },
   {
     src: crowdfund,
     description: "Front-End Crowdfund",
-    link: "https://github.com/NikolaGolubovic/crowdfund-page",
+    link: "https://crowdfund-page-rl4swwjty-nikolagolubovic985.vercel.app/",
   },
   {
     src: bookmark,
     description: "Front-End Bookmark Page",
-    link: "https://github.com/NikolaGolubovic/bookmark-app-front",
+    link: "https://bookmark-app-front.vercel.app/",
   },
   {
     src: memeGenerator,

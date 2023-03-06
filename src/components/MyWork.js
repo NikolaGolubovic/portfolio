@@ -6,13 +6,13 @@ import SmallerProjects from "./SmallerProjects";
 import { biggerPanoControl, smallerPanoControl } from "../config/functions";
 
 function MyWork({ workRef }) {
-  const [biggerPano, setBiggerPano] = useState(true);
-  const [biggerPanoBtn, setBiggerPanoBtn] = useState(true);
+  const [biggerPano, setBiggerPano] = useState(false);
+  const [biggerPanoBtn, setBiggerPanoBtn] = useState(false);
   const [mainProjectsClassName, setMainProjectsClassName] = useState(
-    "main-projects up show"
+    "main-projects up hide"
   );
   const [smallerProjectsClassName, setSmallerProjectsClassName] = useState(
-    "smaller-projects down hide"
+    "smaller-projects down show"
   );
   const [panoOpacity, setPanoOpacity] = useState(1);
 

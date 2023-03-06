@@ -214,7 +214,7 @@ nav a:hover:before {
 }
 
 .my-image img {
-    border-radius: 50%;
+    border-radius: 10%;
     width: 40%;
     filter: grayscale(20%);
     position: absolute;
@@ -633,7 +633,7 @@ a.project-btn:hover {
 .small-project-link img {
     width: 100%;
     min-height: 200px;
-    filter: grayscale(100%);
+
     transition: 0.2s all;
 }
 
