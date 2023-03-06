@@ -89,6 +89,7 @@ p {
         transform: scale(1);
         opacity: 1;
     }
+
     to {
         transform: scale(1.8);
         opacity: 0;
@@ -214,8 +215,8 @@ nav a:hover:before {
 
 .my-image img {
     border-radius: 50%;
-    width: 50%;
-    filter: grayscale(60%);
+    width: 40%;
+    filter: grayscale(20%);
     position: absolute;
     z-index: 1;
 }
@@ -869,6 +870,7 @@ footer {
     .container {
         width: 94%;
     }
+
     .about-container {
         height: 950px;
     }
@@ -878,6 +880,7 @@ footer {
     .container {
         width: 100%;
     }
+
     .card-about {
         display: flex;
         flex-direction: column;
@@ -885,22 +888,28 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .card-about .my-image {
         display: none;
     }
+
     .my-bio {
         padding: 10px;
     }
+
     .my-bio img {
         width: 50%;
     }
+
     .my-bio p {
         padding: 0 30%;
     }
+
     .info-cards {
         display: flex;
         flex-direction: column;
     }
+
     .svg-image-container {
         display: flex;
         width: 100%;
@@ -908,15 +917,18 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
     .my-work-header {
         display: flex;
         flex-direction: column;
         width: 100%;
         margin-bottom: 50px;
     }
+
     .my-work-header>* {
         margin-bottom: 10px;
     }
+
     .project {
         display: flex;
         flex-direction: column-reverse;
@@ -927,29 +939,37 @@ footer {
         width: 100%;
         height: auto;
     }
+
     .project:nth-of-type(even) {
         display: flex;
         flex-direction: column-reverse;
     }
+
     .project-description {
         text-align: center;
     }
+
     .project-title {
         display: none;
     }
+
     .desktop-img {
         width: 100%;
     }
+
     .phone-img {
         display: none;
     }
+
     .container-bilboard-form {
         display: flex;
         flex-direction: column;
     }
+
     .contact-controller {
         width: 100%;
     }
+
     .contact-form {
         display: flex;
         justify-content: flex-start;
@@ -957,23 +977,29 @@ footer {
         width: 60%;
         margin-top: 30px;
     }
+
     .success-msg {
         top: 0px;
     }
+
     .title-about {
         font-size: 1rem;
     }
+
     .switch-table {
         display: flex;
         justify-content: flex-end;
         padding-right: 10px;
     }
+
     .about-container {
         min-height: 1650px;
     }
+
     .contact-controller {
         padding-bottom: 20px;
     }
+
     .small-project {
         flex-basis: 45%;
     }
@@ -985,34 +1011,43 @@ footer {
         position: relative;
         left: 33%;
     }
+
     .project:nth-of-type(even) .desktop-img {
         left: -33%;
     }
+
     .container {
         width: 100%;
     }
+
     nav {
         justify-content: space-between;
     }
+
     .my-image img {
         width: 90%;
     }
+
     .project-info {
         width: 80%;
     }
+
     .project-info-presentation {
         position: relative;
         display: flex;
         justify-content: flex-start;
         width: 90%;
     }
+
     .about-container {
         min-height: 1850px;
     }
+
     .js-image {
         width: 350px;
         height: 250px;
     }
+
     .contact-controller {
         padding-bottom: 20px;
     }

@@ -1,10 +1,8 @@
 import memeGenerator from "../images/meme-generator.jpg";
 import mastermind from "../images/mastermind.jpg";
 import movieSuggestion from "../images/movies-suggestion-compressed.jpg";
-import salvador from "../images/salvador-compressed.jpg";
 import tips from "../images/tips.jpg";
-import fastQuiz from "../images/fast-quiz.jpg";
-import restaurant from "../images/restaurant.jpg";
+import slagalica from "../images/slagalica.jpg";
 
 import cardOne from "../images/card-1.svg";
 import cardTwo from "../images/card-2.svg";
@@ -13,9 +11,17 @@ import cardThree from "../images/logo.svg";
 import calendarDesktop from "../images/calendar-compresed.jpg";
 import calendarPhone from "../images/calendar-phone.jpg";
 import quizDesktop from "../images/quiz-desktop.jpg";
-import quizPhone from "../images/quiz-phone.jpg";
 import surveyDesktop from "../images/survey-desktop.jpg";
 import surveyPhone from "../images/survey-phone.jpg";
+import itBookStoreDesktop from "../images/it-book-store-desktop.jpg";
+import itBookStorePhone from "../images/it-book-store-mobile.jpg";
+import ecommerce from "../images/e-commerc.jpg";
+import invoices from "../images/invoices-min.jpg";
+import pomodoro from "../images/pomodoro-min.jpg";
+import rps from "../images/rps.jpg";
+import crowdfund from "../images/crowdfund-min.jpg";
+import githubFinder from "../images/github-min.jpg";
+import bookmark from "../images/bookmark-min.jpg";
 
 export function makeNavLinks(aboutTop, workTop, contactTop = "Contact") {
   const arrParams = [{ aboutTop }, { workTop }, { contactTop }];
@@ -59,33 +65,32 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
 export const projectsArr = [
   {
     projectTitle: `Calendar App`,
-    projectDescription: `Fullstack Calendar App for making and tracking events. You can use
+    projectDescription: `This is a full-stack calendar app designed for creating and tracking events. You can use
   user as username and password as password for credentials.`,
     projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
-    projectAppLink: "https://sweetcalendar.herokuapp.com/",
-    projectGithubLink: "https://github.com/NikolaGolubovic/fullstack-calendar",
+    projectAppLink: "https://necrkveni-kalendar.onrender.com/",
+    projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
     altDesktop: "Desktop presentation of Application",
     altPhone: "Phone Presentation of Application",
     desktopImg: calendarDesktop,
     phoneImg: calendarPhone,
   },
   {
-    projectTitle: `Quiz App`,
-    projectDescription: `Trivia app which use Open Trivia Database as main source. Game can be made from different categories. You can use user as username and password as password for credentials.`,
-    projectTech: `React, Express, Open Trivia Database, CSS grid`,
-    projectAppLink: "https://quizitj.herokuapp.com/quiz",
-    projectGithubLink:
-      "https://github.com/NikolaGolubovic/full-quiz-server-and-build",
+    projectTitle: `It Book Store`,
+    projectDescription: `Buy books with various programming languages and frameworks.`,
+    projectTech: `React, Firebase`,
+    projectAppLink: "https://it-book-store.vercel.app/",
+    projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
     altDesktop: "Desktop presentation of Application",
     altPhone: "Phone Presentation of Application",
-    desktopImg: quizDesktop,
-    phoneImg: quizPhone,
+    desktopImg: itBookStoreDesktop,
+    phoneImg: itBookStorePhone,
   },
   {
     projectTitle: `Survey App`,
-    projectDescription: `Survey app with options to create surveys and vote. You can use user as username and password as password for credentials.`,
+    projectDescription: `Fullstack survey app with options to create surveys. You can use user as username and password as password for credentials.`,
     projectTech: `React Router, Express, Postgresql, SurveyJs, ChartJs`,
-    projectAppLink: "https://veryhappysurvey.herokuapp.com/",
+    projectAppLink: "https://happy-survey.onrender.com/",
     projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
     altDesktop: "Desktop presentation of Application",
     altPhone: "Phone Presentation of Application",
@@ -96,13 +101,61 @@ export const projectsArr = [
 
 export const smallerProjectsArr = [
   {
+    src: quizDesktop,
+    description:
+      "Trivia app which use Open Trivia Database as main source. Game can be made from different categories. username: username, password: password.",
+    link: "https://github.com/NikolaGolubovic/full-quiz-server-and-build",
+  },
+  {
+    src: slagalica,
+    description:
+      "Improve and verify your general knowledge with thousand questions made by quizzes experts.",
+    link: "https://github.com/NikolaGolubovic/quiz-improver",
+  },
+  {
+    src: ecommerce,
+    description: "Front-End for e-commerce app",
+    link: "https://github.com/NikolaGolubovic/little-e-commerce",
+  },
+  {
+    src: invoices,
+    description:
+      "Front-endfor invoices app, top challange from frontend mentor",
+    link: "https://github.com/NikolaGolubovic/invoices-app",
+  },
+  {
+    src: pomodoro,
+    description: "Pomodoro",
+    link: "https://github.com/NikolaGolubovic/pomodoro-timer",
+  },
+  {
+    src: rps,
+    description: "Rock Paper Scissors",
+    link: "https://github.com/NikolaGolubovic/rps",
+  },
+  {
+    src: githubFinder,
+    description: "Simple github finder app",
+    link: "https://github.com/NikolaGolubovic/Github-finder",
+  },
+  {
+    src: crowdfund,
+    description: "Front-End Crowdfund",
+    link: "https://github.com/NikolaGolubovic/crowdfund-page",
+  },
+  {
+    src: bookmark,
+    description: "Front-End Bookmark Page",
+    link: "https://github.com/NikolaGolubovic/bookmark-app-front",
+  },
+  {
     src: memeGenerator,
     description: "Make your MEME with favorite template",
     link: "https://github.com/NikolaGolubovic/meme-generator",
   },
   {
     src: mastermind,
-    description: "Try to find correct combination, for Serbian players",
+    description: "Try to find correct combination; for Serbian players",
     link: "https://github.com/NikolaGolubovic/mastermind",
   },
   {
@@ -110,22 +163,6 @@ export const smallerProjectsArr = [
     description:
       "Search between various movies recommended by Reddit MovieSuggestions ",
     link: "https://github.com/NikolaGolubovic/movies-suggestion",
-  },
-  {
-    src: salvador,
-    description: "Small quick made galeries",
-    link: "https://github.com/NikolaGolubovic/salvador",
-  },
-  {
-    src: fastQuiz,
-    description: "Quiz with few questions",
-    link: "https://github.com/NikolaGolubovic/fast-quiz",
-  },
-  {
-    src: restaurant,
-    description:
-      "Restaurant simulator, with orders and trackers - focused on OOP",
-    link: "https://github.com/NikolaGolubovic/restaurant-sim",
   },
   {
     src: tips,
