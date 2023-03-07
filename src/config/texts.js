@@ -104,7 +104,7 @@ export const smallerProjectsArr = [
     src: slagalica,
     description:
       "Improve and verify your general knowledge with thousand questions made by quizzes experts.",
-    link: "https://quiz-improver-8v29pomff-nikolagolubovic985.vercel.app/",
+    link: "https://quiz-improver.vercel.app/",
   },
   {
     src: ecommerce,
