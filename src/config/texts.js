@@ -43,20 +43,19 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
       transition: oneTransition,
       imgSrc: cardOne,
       title: "Web Design",
-      text: `I will help you to visualize your idea about personal or bussines site. Together we will
-      create essence of the product.`,
+      text: `I am not a web designer, but I can assist with visualizing ideas for a personal or business website.`,
     },
     {
       transition: twoTransition,
       imgSrc: cardTwo,
       title: "FrontEnd",
-      text: `Using full potential of Javascript, React, modern CSS is my way to create visually and functionally acceptable sites.`,
+      text: `My approach to creating visually and functionally appealing websites is by utilizing the full potential of JavaScript, React, and modern CSS.`,
     },
     {
       transition: threeTransition,
       imgSrc: cardThree,
       title: "Server-Side",
-      text: `With frameworks like Express and databases like SQL I can controll what happens behind eye of costumer.`,
+      text: `I utilize Node.js, relational databases and ORMs to control the backend processes that occur behind the customer's view.`,
     },
   ];
   return cards;
@@ -65,8 +64,7 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
 export const projectsArr = [
   {
     projectTitle: `Calendar App`,
-    projectDescription: `This is a full-stack calendar app designed for creating and tracking events. You can use
-  user as username and password as password for credentials.`,
+    projectDescription: `This is a full-stack calendar app designed for creating and tracking events. For your credentials, you can use 'user' as the username and 'password' as the password.`,
     projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
     projectAppLink: "https://necrkveni-kalendar.onrender.com/",
     projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
@@ -77,7 +75,7 @@ export const projectsArr = [
   },
   {
     projectTitle: `It Book Store`,
-    projectDescription: `Buy books with various programming languages and frameworks.`,
+    projectDescription: `Buy books with various programming languages and frameworks. For your credentials, you can use 'user' as the username and 'password' as the password.`,
     projectTech: `React, Firebase`,
     projectAppLink: "https://it-book-store.vercel.app/",
     projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
@@ -88,7 +86,7 @@ export const projectsArr = [
   },
   {
     projectTitle: `Survey App`,
-    projectDescription: `Fullstack survey app with options to create surveys. You can use user as username and password as password for credentials.`,
+    projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.`,
     projectTech: `React Router, Express, Postgresql, SurveyJs, ChartJs`,
     projectAppLink: "https://happy-survey.onrender.com/",
     projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
@@ -175,20 +173,19 @@ export const smallerProjectsArr = [
 export const mySummary = {
   title: "About",
   name: "My name is Nikola Golubovic",
-  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> someone </span> from
+  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> primarly frontend developer </span> from
   <span class="emp-bio"> Serbia</span> who makes sites. My primary tools
   are <span class="tech-mark"> Javascript</span> as a programming language,
   <span class="tech-mark"> React</span> as frontend framework
   and
-  <span class="tech-mark"> NodeJs/Express</span> as a tool for backend. But generally
-  <span class="emp-bio"> I am not afraid</span> of any technology.`,
+  <span class="tech-mark"> NodeJs</span> as a tool for backend. But generally
+  <span class="emp-bio"> I am not afraid</span> of any technology, as I believe that the core principles behind all technologies remain the same.`,
 };
 
 export const billboardNotes = {
   mystery:
     "You can find code for highlysubliminal function at my github portfolio",
-  msgToUser: `You want to conquer world but you need a sidekick who will implement
-  your ideas into projects?`,
+  msgToUser: `Do you have grand ambitions of conquering the world, but need a reliable sidekick to turn your ideas into successful projects?`,
   email: "nikolagolubovic985@gmail.com",
   phone: "+381 (63) 72 63 54 6",
 };
