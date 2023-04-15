@@ -205,21 +205,45 @@ nav a:hover:before {
     margin: 20px 0;
 }
 
-.my-image {
-    flex-basis: 40%;
+.card-about-left {
+    width: 45%;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.my-image-container {
+    position: relative;
+    width: 50%;
+    height: 200px;
+    display: grid;
+    justify-items: center;
     align-items: center;
     position: relative;
 }
 
-.my-image img {
+.my-image {
     border-radius: 10%;
-    width: 40%;
+    width: 90%;
     filter: grayscale(20%);
     position: absolute;
+    object-fit: cover;
     z-index: 1;
+    transition: opacity 0.5s ease-in-out;
 }
+
+.displayed {
+    opacity: 1;
+}
+
+.my-image-container:hover .my-image {
+    opacity: 1;
+}
+
+.my-image-container:hover .displayed {
+    opacity: 0;
+}
+
 
 .my-bio {
     text-align: left;
@@ -890,7 +914,7 @@ footer {
     }
 
     .card-about .my-image {
-        display: none;
+        transform: scale(0.8)
     }
 
     .my-bio {
@@ -1024,8 +1048,9 @@ footer {
         justify-content: space-between;
     }
 
-    .my-image img {
-        width: 90%;
+    .my-image {
+        width: 200%;
+
     }
 
     .project-info {
