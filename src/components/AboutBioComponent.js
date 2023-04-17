@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import smileImg from "../images/profil-intelektualac.jpg";
+import smileImg from "../images/profil-vazi.jpg";
 import seriousImg from "../images/profil.jpg";
 
 import { mySummary } from "../config/texts";
