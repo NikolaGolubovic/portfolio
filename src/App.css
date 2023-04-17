@@ -80,7 +80,7 @@ p {
     border-radius: 50%;
     width: 100%;
     height: 100%;
-    animation: load 1s infinite;
+    animation: load 1s;
     background: rgba(255, 255, 255, 0.25);
 }
 
@@ -140,17 +140,98 @@ nav a:hover:before {
     margin: 0 auto;
 }
 
-.js-image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    height: 250px;
-}
 
 .js-image {
     width: 600px;
     height: auto;
     margin: 0 auto;
+}
+
+/* HELLO LOGO ANIMATION */
+.js-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    position: relative;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    animation: fill 0.5s ease 3s forwards;
+}
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 479;
+    stroke-dashoffset: 479;
+    animation: line-anim 2s ease forwards;
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 401;
+    stroke-dashoffset: 401;
+    animation: line-anim 2s ease forwards 0.3s;
+}
+
+#logo path:nth-child(3) {
+    stroke-dasharray: 233;
+    stroke-dashoffset: 233;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+
+#logo path:nth-child(4) {
+    stroke-dasharray: 233;
+    stroke-dashoffset: 233;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+
+#logo path:nth-child(5) {
+    stroke-dasharray: 338;
+    stroke-dashoffset: 338;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+
+#logo path:nth-child(6) {
+    stroke-dasharray: 396;
+    stroke-dashoffset: 396;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#logo path:nth-child(7) {
+    stroke-dasharray: 338;
+    stroke-dashoffset: 338;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#logo path:nth-child(8) {
+    stroke-dasharray: 383.8;
+    stroke-dashoffset: 384;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+#logo path:nth-child(9) {
+    stroke-dasharray: 243.9;
+    stroke-dashoffset: 243.9;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+
+@keyframes line-anim {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes fill {
+    from {
+        fill: transparent
+    }
+
+    to {
+        fill: #0f97b8
+    }
 }
 
 /* ABUOT */
