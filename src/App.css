@@ -240,7 +240,6 @@ nav a:hover:before {
     display: flex;
     flex-direction: column;
     background: white;
-    height: 950px;
     margin-bottom: 10px;
     overflow: hidden;
 }
@@ -390,14 +389,12 @@ nav a:hover:before {
     display: flex;
     flex-direction: column;
     width: 100%;
-    min-height: 120%;
     overflow: hidden;
 }
 
 .info-cards {
     display: flex;
     width: 100%;
-    min-height: 350px;
     justify-content: space-around;
     padding: 20px 0 30px 0;
 }
@@ -975,10 +972,6 @@ footer {
     .container {
         width: 94%;
     }
-
-    .about-container {
-        height: 950px;
-    }
 }
 
 @media (max-width: 840px) {
@@ -994,12 +987,9 @@ footer {
         align-items: center;
     }
 
-    .card-about .my-image {
-        transform: scale(0.8)
-    }
 
     .my-bio {
-        padding: 10px;
+        padding: 20px;
     }
 
     .my-bio img {
@@ -1027,11 +1017,6 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .my-work-header>* {
-        margin-bottom: 10px;
     }
 
     .project {
@@ -1097,9 +1082,6 @@ footer {
         padding-right: 10px;
     }
 
-    .about-container {
-        min-height: 1650px;
-    }
 
     .contact-controller {
         padding-bottom: 20px;
@@ -1130,7 +1112,7 @@ footer {
     }
 
     .my-image {
-        width: 200%;
+        width: 150%;
 
     }
 
@@ -1145,10 +1127,6 @@ footer {
         width: 90%;
     }
 
-    .about-container {
-        min-height: 1850px;
-    }
-
     .js-image {
         width: 350px;
         height: 250px;
@@ -1159,8 +1137,4 @@ footer {
     }
 }
 
-@media (max-width: 350px) {
-    .about-container {
-        min-height: 2950px;
-    }
-}
+@media (max-width: 350px) {}
