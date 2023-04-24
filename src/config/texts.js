@@ -55,7 +55,7 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
       transition: threeTransition,
       imgSrc: cardThree,
       title: "Server-Side",
-      text: `I utilize Node.js, relational databases and ORMs to control the backend processes that occur behind the customer's view.`,
+      text: `I utilize Node.js (have experience with Express and NestJs), relational databases and ORMs to control the backend processes that occur behind the customer's view.`,
     },
   ];
   return cards;
@@ -121,11 +121,6 @@ export const smallerProjectsArr = [
     link: "https://pomodoro-timer-lovat.vercel.app/",
   },
   {
-    src: rps,
-    description: "Rock Paper Scissors",
-    link: "https://rps-avzwd0nwt-nikolagolubovic985.vercel.app/",
-  },
-  {
     src: quizDesktop,
     description:
       "Trivia app which use Open Trivia Database as main source. Game can be made from different categories.",
@@ -163,6 +158,12 @@ export const smallerProjectsArr = [
     link: "https://github.com/NikolaGolubovic/movies-suggestion",
   },
   {
+    src: rps,
+    description:
+      "Rock Paper Scissors. Its simple, maybe stupid, but looks nice :)",
+    link: "https://rps-avzwd0nwt-nikolagolubovic985.vercel.app/",
+  },
+  {
     src: tips,
     description:
       "Interesting web dev resources from twitter, reddit, various blogs...",
@@ -173,11 +174,10 @@ export const smallerProjectsArr = [
 export const mySummary = {
   title: "About",
   name: "My name is Nikola Golubovic",
-  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> primarly frontend developer </span> from
-  <span class="emp-bio"> Serbia</span> who makes sites. My primary tools
-  are <span class="tech-mark"> Javascript</span> as a programming language,
-  <span class="tech-mark"> React</span> as frontend framework
-  and
+  text: `<span class="emp-bio">I</span> am <span class="emp-bio"> someone </span> who makes sites. 
+  So far, I have more experience with <span class="emp-bio">frontend technologies</span>, but I am also familiar with <span class="emp-bio">backend development</span>.
+  My primary tools are <span class="tech-mark"> Javascript</span> as a programming language,
+  <span class="tech-mark"> React</span> as frontend framework and
   <span class="tech-mark"> NodeJs</span> as a tool for backend. But generally
   <span class="emp-bio"> I am not afraid</span> of any technology, as I believe that the core principles behind all technologies remain the same.`,
 };
