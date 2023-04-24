@@ -768,7 +768,7 @@ a.project-btn:hover {
 }
 
 .small-project-description p {
-    background: #601B45;
+    background: var(--teal);
     color: var(--white);
     line-height: 10px;
     font-size: 10px;
