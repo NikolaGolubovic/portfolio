@@ -22,6 +22,7 @@ import rps from "../images/rps.jpg";
 import crowdfund from "../images/crowdfund-min.jpg";
 import githubFinder from "../images/github-min.jpg";
 import bookmark from "../images/bookmark-min.jpg";
+import unsplash from "../images/unsplash-min.jpg";
 
 export function makeNavLinks(aboutTop, workTop, contactTop = "Contact") {
   const arrParams = [{ aboutTop }, { workTop }, { contactTop }];
@@ -116,9 +117,9 @@ export const smallerProjectsArr = [
     link: "https://invoices-app-sooty.vercel.app/",
   },
   {
-    src: pomodoro,
-    description: "Pomodoro",
-    link: "https://pomodoro-timer-lovat.vercel.app/",
+    src: unsplash,
+    description: "Infinite scroll with Unsplash API",
+    link: "https://unsplash-gallery-lightbox-c3uftlako-nikolagolubovic985.vercel.app/",
   },
   {
     src: quizDesktop,
@@ -130,6 +131,11 @@ export const smallerProjectsArr = [
     src: githubFinder,
     description: "Simple github finder app",
     link: "https://github-finder-hazel.vercel.app/",
+  },
+  {
+    src: pomodoro,
+    description: "Pomodoro",
+    link: "https://pomodoro-timer-lovat.vercel.app/",
   },
   {
     src: crowdfund,
