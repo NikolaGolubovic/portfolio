@@ -755,11 +755,35 @@ a.project-btn:hover {
     background: -moz-linear-gradient(#fcfcfc, #eee);
     background: -ms-linear-gradient(#fcfcfc, #eee);
     background: -o-linear-gradient(#fcfcfc, #eee);
-    background: linear-gradient(#fcfcfc, #eee);
+    background: linear-gradient(rgb(252, 252, 252), #eee);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     position: absolute;
     right: 20px;
     top: 20px;
     z-index: 20;
+    overflow: hidden;
+}
+
+.github-button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(252, 252, 252);
+    transition: all .6s;
+    z-index: -1;
+    transform: translateX(-100%);
+}
+
+.github-button:hover::before {
+    transform: translateX(250%)
+}
+
+.github-button:active {
+    transform: scale(0.98);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .github-icon {
