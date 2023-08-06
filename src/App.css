@@ -671,10 +671,15 @@ h2.card-title {
     margin-right: 10px;
     padding: 5px 10px;
     border-radius: 5px;
+    https: //github.com/NikolaGolubovic/it-books-storage
 }
 
 a.project-btn:hover {
     box-shadow: 0 0.5rem 1rem rgb(45 147 173 / 20%);
+}
+
+a.project-btn:active {
+    transform: scale(0.98);
 }
 
 .project:nth-of-type(even) {
