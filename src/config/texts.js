@@ -104,76 +104,90 @@ export const smallerProjectsArr = [
     description:
       "Improve and verify your general knowledge with thousand questions made by quizzes experts.",
     link: "https://quiz-improver.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/quiz-improver",
   },
   {
     src: ecommerce,
     description: "Front-End for e-commerce app",
     link: "https://little-e-commerce-ab0r1bilf-nikolagolubovic985.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/little-e-commerce",
   },
   {
     src: invoices,
     description:
       "Front-end for invoices app, top challange from frontend mentor",
     link: "https://invoices-app-sooty.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/invoices-app",
   },
   {
     src: unsplash,
     description: "Infinite scroll with Unsplash API",
     link: "https://unsplash-gallery-lightbox-c3uftlako-nikolagolubovic985.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/unsplash-gallery-lightbox",
   },
   {
     src: quizDesktop,
     description:
       "Trivia app which use Open Trivia Database as main source. Game can be made from different categories.",
     link: "https://trivia-ko-voli.onrender.com/",
+    githubLink: "https://github.com/NikolaGolubovic/full-quiz-server-and-build",
   },
   {
-    src: githubFinder,
-    description: "Simple github finder app",
-    link: "https://github-finder-hazel.vercel.app/",
+    src: mastermind,
+    description: "Try to find correct combination; for Serbian players",
+    link: "https://duga.surge.sh/",
+    githubLink: "https://github.com/NikolaGolubovic/mastermind",
   },
   {
     src: pomodoro,
     description: "Pomodoro",
     link: "https://pomodoro-timer-lovat.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/pomodoro-timer",
   },
   {
     src: crowdfund,
     description: "Front-End Crowdfund",
     link: "https://crowdfund-page-rl4swwjty-nikolagolubovic985.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/crowdfund-page",
   },
   {
     src: bookmark,
     description: "Front-End Bookmark Page",
     link: "https://bookmark-app-front.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/bookmark-app-front",
   },
   {
     src: memeGenerator,
     description: "Make your MEME with favorite template",
     link: "https://github.com/NikolaGolubovic/meme-generator",
+    githubLink: "https://github.com/NikolaGolubovic/meme-generator",
   },
   {
-    src: mastermind,
-    description: "Try to find correct combination; for Serbian players",
-    link: "https://github.com/NikolaGolubovic/mastermind",
+    src: githubFinder,
+    description: "Simple github finder app",
+    link: "https://github-finder-hazel.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/Github-finder",
   },
   {
     src: movieSuggestion,
     description:
       "Search between various movies recommended by Reddit MovieSuggestions ",
     link: "https://github.com/NikolaGolubovic/movies-suggestion",
+    githubLink: "https://github.com/NikolaGolubovic/movies-suggestion",
   },
   {
     src: rps,
     description:
       "Rock Paper Scissors. Its simple, maybe stupid, but looks nice :)",
     link: "https://rps-avzwd0nwt-nikolagolubovic985.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/rps",
   },
   {
     src: tips,
     description:
       "Interesting web dev resources from twitter, reddit, various blogs...",
     link: "https://github.com/NikolaGolubovic/restaurant-sim",
+    githubLink: "https://github.com/NikolaGolubovic/tips",
   },
 ];
 
