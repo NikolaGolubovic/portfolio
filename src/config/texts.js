@@ -3,6 +3,7 @@ import mastermind from "../images/mastermind.jpg";
 import movieSuggestion from "../images/movies-suggestion-compressed.jpg";
 import tips from "../images/tips.jpg";
 import slagalica from "../images/slagalica.jpg";
+import todoapp from "../images/todoapp.jpg";
 
 import cardOne from "../images/card-1.svg";
 import cardTwo from "../images/card-2.svg";
@@ -111,6 +112,12 @@ export const smallerProjectsArr = [
     description: "Front-End for e-commerce app",
     link: "https://little-e-commerce-ab0r1bilf-nikolagolubovic985.vercel.app/",
     githubLink: "https://github.com/NikolaGolubovic/little-e-commerce",
+  },
+  {
+    src: todoapp,
+    description: "Not too simple TodoApp with NestJs, TypeOrm and React",
+    link: "https://todo-app-u9rc.onrender.com/",
+    githubLink: "https://github.com/NikolaGolubovic/todoapp-full/tree/main",
   },
   {
     src: invoices,
