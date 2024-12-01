@@ -62,17 +62,17 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
 }
 
 export const projectsArr = [
-  {
-    projectTitle: `Calendar App (currently down)`,
-    projectDescription: `This is a full-stack calendar app designed for creating and tracking events. For your credentials, you can use 'user' as the username and 'password' as the password. (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
-    projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
-    projectAppLink: "https://necrkveni-kalendar.onrender.com/",
-    projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
-    altDesktop: "Desktop presentation of Application",
-    altPhone: "Phone Presentation of Application",
-    desktopImg: calendarDesktop,
-    phoneImg: calendarPhone,
-  },
+  // {
+  //   projectTitle: `Calendar App (currently down)`,
+  //   projectDescription: `This is a full-stack calendar app designed for creating and tracking events. For your credentials, you can use 'user' as the username and 'password' as the password. (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
+  //   projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
+  //   projectAppLink: "https://necrkveni-kalendar.onrender.com/",
+  //   projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
+  //   altDesktop: "Desktop presentation of Application",
+  //   altPhone: "Phone Presentation of Application",
+  //   desktopImg: calendarDesktop,
+  //   phoneImg: calendarPhone,
+  // },
   {
     projectTitle: `It Book Store`,
     projectDescription: `Buy books with various programming languages and frameworks. For your credentials, you can use 'user' as the username and 'password' as the password.`,
@@ -84,17 +84,17 @@ export const projectsArr = [
     desktopImg: itBookStoreDesktop,
     phoneImg: itBookStorePhone,
   },
-  {
-    projectTitle: `Survey App (currently down)`,
-    projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.  (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
-    projectTech: `React Router, Express, Postgresql, SurveyJs, ChartJs`,
-    projectAppLink: "https://happy-survey.onrender.com/",
-    projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
-    altDesktop: "Desktop presentation of Application",
-    altPhone: "Phone Presentation of Application",
-    desktopImg: surveyDesktop,
-    phoneImg: surveyPhone,
-  },
+  //   {
+  //     projectTitle: `Survey App (currently down)`,
+  //     projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.  (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
+  //     projectTech: `React Router, Express, Postgresql, SurveyJs, ChartJs`,
+  //     projectAppLink: "https://happy-survey.onrender.com/",
+  //     projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
+  //     altDesktop: "Desktop presentation of Application",
+  //     altPhone: "Phone Presentation of Application",
+  //     desktopImg: surveyDesktop,
+  //     phoneImg: surveyPhone,
+  //   },
 ];
 
 export const smallerProjectsArr = [
