@@ -3,8 +3,6 @@ import mastermind from "../images/mastermind.jpg";
 import movieSuggestion from "../images/movies-suggestion-compressed.jpg";
 import tips from "../images/tips.jpg";
 import slagalica from "../images/slagalica.jpg";
-import todoapp from "../images/todoapp.jpg";
-
 import cardOne from "../images/card-1.svg";
 import cardTwo from "../images/card-2.svg";
 import cardThree from "../images/logo.svg";
@@ -65,8 +63,8 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
 
 export const projectsArr = [
   {
-    projectTitle: `Calendar App`,
-    projectDescription: `This is a full-stack calendar app designed for creating and tracking events. For your credentials, you can use 'user' as the username and 'password' as the password.`,
+    projectTitle: `Calendar App (currently down)`,
+    projectDescription: `This is a full-stack calendar app designed for creating and tracking events. For your credentials, you can use 'user' as the username and 'password' as the password. (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
     projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
     projectAppLink: "https://necrkveni-kalendar.onrender.com/",
     projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
@@ -87,8 +85,8 @@ export const projectsArr = [
     phoneImg: itBookStorePhone,
   },
   {
-    projectTitle: `Survey App`,
-    projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.`,
+    projectTitle: `Survey App (currently down)`,
+    projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.  (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
     projectTech: `React Router, Express, Postgresql, SurveyJs, ChartJs`,
     projectAppLink: "https://happy-survey.onrender.com/",
     projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
@@ -112,12 +110,6 @@ export const smallerProjectsArr = [
     description: "Front-End for e-commerce app",
     link: "https://little-e-commerce-ab0r1bilf-nikolagolubovic985.vercel.app/",
     githubLink: "https://github.com/NikolaGolubovic/little-e-commerce",
-  },
-  {
-    src: todoapp,
-    description: "Not too simple TodoApp with NestJs, TypeOrm and React",
-    link: "https://todo-app-u9rc.onrender.com/",
-    githubLink: "https://github.com/NikolaGolubovic/todoapp-full/tree/main",
   },
   {
     src: invoices,
