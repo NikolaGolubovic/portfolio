@@ -10,6 +10,7 @@ import cardThree from "../images/logo.svg";
 import calendarDesktop from "../images/calendar-compresed.jpg";
 import calendarPhone from "../images/calendar-phone.jpg";
 import quizDesktop from "../images/quiz-desktop.jpg";
+import quizPhone from "../images/quiz-phone.jpg";
 import surveyDesktop from "../images/survey-desktop.jpg";
 import surveyPhone from "../images/survey-phone.jpg";
 import itBookStoreDesktop from "../images/it-book-store-desktop.jpg";
@@ -84,6 +85,19 @@ export const projectsArr = [
     desktopImg: itBookStoreDesktop,
     phoneImg: itBookStorePhone,
   },
+  {
+    projectTitle: `Quiz App`,
+    projectDescription: `Trivia app that uses the Open Trivia Database as its main source. Games can be created from various categories.`,
+    projectTech: `React`,
+    projectAppLink: "https://front-quiz-2xs1.vercel.app/quiz",
+    projectGithubLink:
+      "https://github.com/NikolaGolubovic/full-quiz-server-and-build",
+    altDesktop: "Desktop presentation of Application",
+    altPhone: "Phone Presentation of Application",
+    desktopImg: quizDesktop,
+    phoneImg: quizPhone,
+  },
+
   //   {
   //     projectTitle: `Survey App (currently down)`,
   //     projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.  (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,

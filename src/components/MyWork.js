@@ -6,13 +6,13 @@ import SmallerProjects from "./SmallerProjects";
 import { biggerPanoControl, smallerPanoControl } from "../config/functions";
 
 function MyWork({ workRef }) {
-  const [biggerPano, setBiggerPano] = useState(false);
-  const [biggerPanoBtn, setBiggerPanoBtn] = useState(false);
+  const [biggerPano, setBiggerPano] = useState(true);
+  const [biggerPanoBtn, setBiggerPanoBtn] = useState(true);
   const [mainProjectsClassName, setMainProjectsClassName] = useState(
-    "main-projects up hide"
+    "main-projects up show"
   );
   const [smallerProjectsClassName, setSmallerProjectsClassName] = useState(
-    "smaller-projects down show"
+    "smaller-projects down hide"
   );
   const [panoOpacity, setPanoOpacity] = useState(1);
 
@@ -49,7 +49,7 @@ function MyWork({ workRef }) {
               )
             }
           >
-            Little Projects
+            Small Projects
           </button>
         </div>
       </div>
