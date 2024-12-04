@@ -97,18 +97,17 @@ export const projectsArr = [
     desktopImg: quizDesktop,
     phoneImg: quizPhone,
   },
-
-  //   {
-  //     projectTitle: `Survey App (currently down)`,
-  //     projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.  (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
-  //     projectTech: `React Router, Express, Postgresql, SurveyJs, ChartJs`,
-  //     projectAppLink: "https://happy-survey.onrender.com/",
-  //     projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
-  //     altDesktop: "Desktop presentation of Application",
-  //     altPhone: "Phone Presentation of Application",
-  //     desktopImg: surveyDesktop,
-  //     phoneImg: surveyPhone,
-  //   },
+  {
+    projectTitle: `Survey App (currently down)`,
+    projectDescription: `Fullstack survey app with options to create surveys.`,
+    projectTech: `React, Express, Postgresql, SurveyJs, ChartJs`,
+    projectAppLink: "https://happysurvey.vercel.app/",
+    projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
+    altDesktop: "Desktop presentation of Application",
+    altPhone: "Phone Presentation of Application",
+    desktopImg: surveyDesktop,
+    phoneImg: surveyPhone,
+  },
 ];
 
 export const smallerProjectsArr = [
