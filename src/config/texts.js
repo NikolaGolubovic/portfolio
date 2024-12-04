@@ -8,7 +8,7 @@ import cardTwo from "../images/card-2.svg";
 import cardThree from "../images/logo.svg";
 
 import calendarDesktop from "../images/calendar-compresed.jpg";
-import calendarPhone from "../images/calendar-phone.jpg";
+// import calendarPhone from "../images/calendar-phone.jpg";
 import quizDesktop from "../images/quiz-desktop.jpg";
 import quizPhone from "../images/quiz-phone.jpg";
 import surveyDesktop from "../images/survey-desktop.jpg";
@@ -64,15 +64,15 @@ export function makeCards(oneTransition, twoTransition, threeTransition) {
 
 export const projectsArr = [
   // {
-  //   projectTitle: `Calendar App (currently down)`,
-  //   projectDescription: `This is a full-stack calendar app designed for creating and tracking events. For your credentials, you can use 'user' as the username and 'password' as the password. (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
-  //   projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
-  //   projectAppLink: "https://necrkveni-kalendar.onrender.com/",
-  //   projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
-  //   altDesktop: "Desktop presentation of Application",
-  //   altPhone: "Phone Presentation of Application",
-  //   desktopImg: calendarDesktop,
-  //   phoneImg: calendarPhone,
+  // projectTitle: `Calendar App (currently down)`,
+  // projectDescription: `This is a full-stack calendar app designed for creating and tracking events. For your credentials, you can use 'user' as the username and 'password' as the password. (The website is currently down because the domain for Postgres has expired. It will be fixed soon. Thank you for your patience.)`,
+  // projectTech: `React, CssFlex, NodeJs/Express, Postgresql`,
+  // projectAppLink: "https://necrkveni-kalendar.onrender.com/",
+  // projectGithubLink: "https://github.com/NikolaGolubovic/it-books-storage",
+  // altDesktop: "Desktop presentation of Application",
+  // altPhone: "Phone Presentation of Application",
+  // desktopImg: calendarDesktop,
+  // phoneImg: calendarPhone,
   // },
   {
     projectTitle: `It Book Store`,
@@ -99,7 +99,7 @@ export const projectsArr = [
   },
   {
     projectTitle: `Survey App (currently down)`,
-    projectDescription: `Fullstack survey app with options to create surveys.`,
+    projectDescription: `Fullstack survey app with options to create surveys. For your credentials, you can use 'user' as the username and 'password' as the password.`,
     projectTech: `React, Express, Postgresql, SurveyJs, ChartJs`,
     projectAppLink: "https://happysurvey.vercel.app/",
     projectGithubLink: "https://github.com/NikolaGolubovic/happysurvey",
@@ -117,6 +117,13 @@ export const smallerProjectsArr = [
       "Improve and verify your general knowledge with thousand questions made by quizzes experts.",
     link: "https://quiz-improver.vercel.app/",
     githubLink: "https://github.com/NikolaGolubovic/quiz-improver",
+  },
+  {
+    src: calendarDesktop,
+    description:
+      "Calendar/Reminder App. You can use 'user' as the username and 'password' as the password.",
+    link: "https://fullstack-calendar.vercel.app/",
+    githubLink: "https://github.com/NikolaGolubovic/fullstack-calendar",
   },
   {
     src: ecommerce,
